@@ -2,24 +2,24 @@ Wine Dataset used.
 All Codes are in python2.
 
 (1)
-rf15.py is the code for Random Forest building and testing.
+  rf15.py is the code for Random Forest building and testing.
 
-It is currently for no. of trees as 15.
+  It is currently for no. of trees as 15.
 
-No. of trees(K) can be changed from line 43.
+  No. of trees(K) can be changed from line 43.
 
-Range of m values(ml) can be changed from line 34.
+  Range of m values(ml) can be changed from line 34.
 
 (2)
-oob.py is the code for getting OOB error.
+  oob.py is the code for getting OOB error.
 
-It is currently for no. of trees as 15.
+  It is currently for no. of trees as 15.
 
-No. of trees(K) can be changed from line 42.
+  No. of trees(K) can be changed from line 42.
 
-Range of m values(ml) can be changed from line 33.
+  Range of m values(ml) can be changed from line 33.
 
 (3)
-plot.ipynb is for plotting graphs.
+  plot.ipynb is for plotting graphs.
 
-NOTE: After running rf15.py, we get stored pickled values that we re-use in oob.py and plot.ipynb; so rf15.py should be run first.
+  NOTE: After running rf15.py, we get stored pickled values that we re-use in oob.py and plot.ipynb; so rf15.py should be run first.
