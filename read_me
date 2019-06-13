@@ -1,5 +1,5 @@
-->Metropolis_Hastings: Implementation of Bayesian MCMC Metropolis Hastings Algorithm from scratch & with pymc3 for Pumps: conjugate 
-gamma-Poisson hierarchical model.
+->Metropolis_Hastings: Implementation of Bayesian MCMC Metropolis Hastings Algorithm from scratch & with pymc3 for Pumps: 
+conjugate gamma-Poisson hierarchical model.
 http://www.openbugs.net/Examples/Pumps.html
 
 ->Random_Forest_from_scratch: Python implementation of Random Forest classifier and Out-Of-Bag error computation, from 
