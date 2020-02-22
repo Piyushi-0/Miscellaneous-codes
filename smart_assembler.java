@@ -1,3 +1,16 @@
+/*
+Question asked in coding round of Smartprix.
+Program to execute commands of assembly language. Set of commands given were:
+1. ECHO 1: prints the number. Eg. ECHO 1 prints 1
+2. Exit: exits the program.
+3. SET a 0: assign variable a value 0.
+4. ADD 2 3 z: this means z = 2+3 assign sum of first two values to third one.
+5. GOTO and LABEL: works as label and Goto defined in c language but label can be before or after goto
+6. IF and END: If IF condition is true then statements between IF and END commands get executed otherwise not. Eg. IF a 10 statement1 statement2 END i.e., if a=10.
+7. CONTINUE: works as defined in c language.
+Variable names will only be alphabetic [a-z] and default values of variables is 0 no need to define or set before use.	
+*/
+
 import java.util.*;
 class P{
 public static void main(String args[])
