@@ -1,3 +1,13 @@
+/*
+Question asked in coding round of Smartprix.
+Write a program to simulate a keyboard with given Keys and their operation .Type of keys to simulate were: Alphanumeric space: print it as it is and shift cursor.
+@ = toggles caps lock on if off and vice versa, initially it is off.
+# = inserts a new line at cursor position and shift cursor.
+/ = deletes one character at left and points cursor at that position.
+? = works as down arrow if cursor is at last line nothing changes.
+^ = works as up arrow if cursor is at first line nothing changes.
+*/
+
 import java.util.*;
 class D{
 public static void main(String args[])
