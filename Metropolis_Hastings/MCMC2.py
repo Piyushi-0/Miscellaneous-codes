@@ -1,3 +1,9 @@
+'''
+Implementation of Bayesian MCMC Metropolis Hastings Algorithm from scratch(MCMC.py, MCMC2.py) & with 
+pymc3(Inbuilt MCMC.ipynb) for Pumps:conjugate gamma-Poisson hierarchical model.
+http://www.openbugs.net/Examples/Pumps.html
+'''
+
 import joblib
 import numpy as np
 
