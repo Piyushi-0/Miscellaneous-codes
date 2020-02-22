@@ -12,8 +12,7 @@ int edf(int time)
 int i,minx=-1;
 for(i=0;i<3;i++)
 	{
-	if(t[i].lx+1<t[i].m && t[i].arv_at[t[i].lx+1]<=time)//next instance remaining has
-	arrived
+	if(t[i].lx+1<t[i].m && t[i].arv_at[t[i].lx+1]<=time)//next instance remaining has arrived
 		{
 		if(minx==-1)
 		minx=i;
