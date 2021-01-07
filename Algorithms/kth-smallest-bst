@@ -1,0 +1,33 @@
+'''
+My solution to Kth Smallest element in a Binary Search Tree.
+This was faster than 99.5% of the accepted submissions on Leetcode.
+'''
+
+# Definition for a binary tree node.
+# class TreeNode:
+#     def __init__(self, val=0, left=None, right=None):
+#         self.val = val
+#         self.left = left
+#         self.right = right
+class Solution:
+    def kthSmallest(self, root: TreeNode, k: int) -> int:
+        par= [root]
+        visited= []
+        i= 0
+        dic_i= {}
+        while len(par)>0:
+            curr_node= par[-1]
+            if curr_node.left and curr_node.left not in visited:
+                par.append(curr_node.left)
+            else:#appending left stops- if left doesn't exist then left not in visited also
+                if curr_node not in dic_i:
+                    i+= 1
+                    dic_i[curr_node]= i
+                    if i==k:
+                        return curr_node.val
+                if curr_node.right and curr_node.right not in visited:
+                    par.append(curr_node.right)
+                else:#left and right both have been done
+                    par.pop()
+                    visited.append(curr_node)
+                    
